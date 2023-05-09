@@ -1,4 +1,3 @@
-// import './style.css'
 async function loadIntoTable(url, table) {
   const tableHead = table.querySelector("thead");
   const tableBody = table.querySelector("tbody");
@@ -9,7 +8,7 @@ async function loadIntoTable(url, table) {
   tableHead.innerHTML = "<tr></tr>";
   tableBody.innerHTML = "";
 
-  // Populate headers
+  // Fill headers
   for (const headerText of headers) {
     const headerElement = document.createElement("th");
 
@@ -17,7 +16,7 @@ async function loadIntoTable(url, table) {
     tableHead.querySelector("tr").appendChild(headerElement);
   }
 
-  // Populate rows
+  // Fill rows
   for (const row of rows){
     const rowElement = document.createElement("tr");
 

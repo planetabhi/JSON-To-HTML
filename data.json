@@ -1,10 +1,20 @@
 {
     "headers": [
-        "Rise of Machine"
+        "Month",
+        "Savings"
     ],
     "rows": [
         [
-            "Coming Soon"
+            "January",
+            "$100"
+        ],
+        [
+            "February",
+            "$90"
+        ],
+        [
+            "March",
+            "$80"
         ]
     ]
 }
